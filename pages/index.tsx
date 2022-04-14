@@ -9,6 +9,7 @@ const Home: NextPage = () => {
 			<Head>
 				<title>Vicky Delk's Blog</title>
 			</Head>
+            
 		</div>
 	);
 };
