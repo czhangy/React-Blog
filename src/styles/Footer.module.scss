@@ -1,0 +1,10 @@
+@use 'variables';
+
+#footer {
+    padding: 32px;
+    width: 100%;
+    background: variables.$main-color;
+    text-align: center;
+    font-family: variables.$title-font;
+    font-size: 1.5rem;
+}

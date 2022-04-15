@@ -1,0 +1,27 @@
+@use "variables";
+
+#navbar {
+    width: 100%;
+    background: variables.$main-color;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    #site-title {
+        font-family: variables.$title-font;
+        font-size: 3rem;
+    }
+
+    #link-container {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+
+        .nav-link {
+            font-family: variables.$main-font;
+            letter-spacing: 1px;
+            font-size: 1.2rem;
+        }
+    }
+}
