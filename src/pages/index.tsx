@@ -16,7 +16,7 @@ const Home: NextPage = () => {
 			</Head>
 			<div id={styles.home}>
 				<div id={styles["image-wrapper"]}>
-					<Image src="/profile1.JPG" height="400" width="300" />
+					<Image src="/profile1.JPG" alt="" height="400" width="300" />
 				</div>
 				<div id={styles["recent-posts-container"]}>
 					<h2>RECENT POSTS</h2>
