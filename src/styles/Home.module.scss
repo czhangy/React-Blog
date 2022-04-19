@@ -1,20 +1,23 @@
-@use 'variables';
+@use "variables";
 
 #home {
-    height: calc(100vh - #{variables.$navbar-height});
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+	height: calc(100vh - #{variables.$navbar-height});
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 
-    #image-wrapper {
-        overflow: hidden;
-        border-radius: 30px;
-        filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.8));
-    }
+	#image-wrapper {
+		overflow: hidden;
+		border-radius: 30px;
+		filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.8));
+	}
 
-    #home-text {
-        font-size: 2rem;
-        font-family: variables.$main-font;
-    }
+	#recent-posts-container {
+		h2 {
+			font-size: 2rem;
+			font-family: variables.$main-font;
+            text-decoration: underline;
+		}
+	}
 }
