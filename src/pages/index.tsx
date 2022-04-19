@@ -15,23 +15,9 @@ const Home: NextPage = () => {
 				<title>Victoria Delk's Blog</title>
 			</Head>
 			<div id={styles.home}>
-				<p id={styles["home-text"]}>Hi!</p>
-				<div id={styles["home-collage"]}>
-					<div id={styles["img-1"]} className={styles["home-img"]}>
-						<Image
-							src="/profile1.JPG"
-							layout="fill"
-							objectFit="cover"
-						/>
-					</div>
-					<div id={styles["img-2"]} className={styles["home-img"]}>
-						<Image
-							src="/profile2.JPG"
-							layout="fill"
-							objectFit="cover"
-						/>
-					</div>
-				</div>
+                <div id={ styles['image-wrapper']}>
+                    <Image src="/profile1.JPG" height="400" width="300" />
+                </div>
 			</div>
 		</div>
 	);

@@ -3,11 +3,12 @@
 #navbar {
     height: variables.$navbar-height;
     width: 100%;
-    background: variables.$main-color;
+    background: variables.$accent-color;
     padding: 0 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: black;
 
     #site-title {
         font-family: variables.$title-font;
