@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 	return (
 		<div>
 			<Head>
-				<title>Victoria Delk's Blog</title>
+				<title>Victoria Delk&apos;s Blog</title>
 			</Head>
 			<div id={styles.home}>
 				<div id={styles["image-wrapper"]}>
