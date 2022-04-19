@@ -15,12 +15,12 @@ const Home: NextPage = () => {
 				<title>Victoria Delk's Blog</title>
 			</Head>
 			<div id={styles.home}>
-                <div id={ styles['image-wrapper']}>
-                    <Image src="/profile1.JPG" height="400" width="300" />
-                </div>
-                <div id={ styles['recent-posts-container'] }>
-                    <h2>RECENT POSTS</h2> 
-                </div>
+				<div id={styles["image-wrapper"]}>
+					<Image src="/profile1.JPG" height="400" width="300" />
+				</div>
+				<div id={styles["recent-posts-container"]}>
+					<h2>RECENT POSTS</h2>
+				</div>
 			</div>
 		</div>
 	);
