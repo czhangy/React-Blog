@@ -18,29 +18,24 @@
 		}
 
 		.content-container {
-			width: 300px;
+			width: 450px;
 
-			.header-container {
-				display: flex;
-				align-items: center;
-				margin-bottom: 16px;
+			.post-title {
+				font-family: variables.$title-font;
+				margin: 0;
+				margin-right: 32px;
+				font-size: 2rem;
+			}
 
-				.post-title {
-					font-family: variables.$title-font;
-					margin: 0;
-					margin-right: 32px;
-					font-size: 2rem;
-				}
-
-				.post-timestamp {
-					font-family: variables.$main-font;
-					font-size: 1rem;
-				}
+			.post-timestamp {
+				font-family: variables.$main-font;
+				font-size: 1rem;
 			}
 
 			.post-body {
 				font-family: variables.$main-font;
 				font-size: 1rem;
+                word-wrap: break-word;
 			}
 		}
 	}

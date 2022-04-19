@@ -7,7 +7,7 @@ import styles from "styles/RecentPostCard.module.scss";
 
 type Props = {
 	post: {
-        id: String,
+		id: String;
 		title: String;
 		timestamp: String;
 		thumb: string;
@@ -18,7 +18,7 @@ type Props = {
 const RecentPostCard = ({ post }: Props) => {
 	// Truncate body text and insert ellipses
 	const truncateBody = () => {
-		if (post.body.length > 175) return post.body.substring(0, 175) + "...";
+		if (post.body.length > 220) return post.body.substring(0, 220) + "...";
 		else return post.body;
 	};
 
@@ -35,14 +35,10 @@ const RecentPostCard = ({ post }: Props) => {
 						/>
 					</div>
 					<div className={styles["content-container"]}>
-						<div className={styles["header-container"]}>
-							<h4 className={styles["post-title"]}>
-								{post.title}
-							</h4>
-							<p className={styles["post-timestamp"]}>
-								{post.timestamp}
-							</p>
-						</div>
+						<h4 className={styles["post-title"]}>{post.title}</h4>
+						<p className={styles["post-timestamp"]}>
+							{post.timestamp}
+						</p>
 						<p className={styles["post-body"]}>{truncateBody()}</p>
 					</div>
 				</a>
