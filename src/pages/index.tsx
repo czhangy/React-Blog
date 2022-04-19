@@ -36,7 +36,7 @@ const Home: NextPage = () => {
 							width="450"
 						/>
 					</div>
-					<p id={styles["main-title"]}>Hi! I'm Vicky Delk :)</p>
+					<p id={styles["main-title"]}>Hi! I&apos;m Vicky Delk :)</p>
 				</div>
 				<div id={styles["recent-posts-container"]}>
 					<h2 id={styles["recent-posts-header"]}>RECENT POSTS</h2>
