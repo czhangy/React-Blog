@@ -1,4 +1,4 @@
-@use "variables";
+@use "constants";
 
 @import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
 
@@ -6,9 +6,7 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	background: variables.$main-color;
+	background: constants.$accent-color;
 
 	a {
 		color: inherit;

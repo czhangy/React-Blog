@@ -1,11 +1,11 @@
-@use 'variables';
+@use 'constants';
 
 #footer {
     padding: 32px;
     width: 100%;
-    background: variables.$accent-color;
+    background: constants.$accent-color;
     text-align: center;
-    font-family: variables.$title-font;
+    font-family: constants.$title-font;
     font-size: 1.5rem;
     filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.5));
 

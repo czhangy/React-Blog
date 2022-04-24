@@ -46,7 +46,7 @@ const Home: NextPage = () => {
 						<RecentPostCard post={test} />
 					</ul>
 					<Link href="/blog">
-						<a id={styles["see-more-link"]}>See More!</a>
+						<a id={styles["see-more-link"]}>See More &gt;</a>
 					</Link>
 				</div>
 			</div>

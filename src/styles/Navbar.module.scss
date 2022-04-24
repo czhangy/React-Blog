@@ -1,9 +1,9 @@
-@use "variables";
+@use "constants";
 
 #navbar {
-    height: variables.$navbar-height;
+    height: constants.$navbar-height;
     width: 100%;
-    background: variables.$accent-color;
+    background: constants.$accent-color;
     padding: 0 32px;
     display: flex;
     justify-content: space-between;
@@ -12,7 +12,7 @@
     filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.3));
 
     #site-title {
-        font-family: variables.$title-font;
+        font-family: constants.$title-font;
         font-size: 3rem;
     }
 
@@ -22,7 +22,7 @@
         justify-content: space-between;
 
         .nav-link {
-            font-family: variables.$main-font;
+            font-family: constants.$main-font;
             letter-spacing: 1px;
             font-size: 1.2rem;
         }

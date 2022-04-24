@@ -1,15 +1,19 @@
-@use "variables";
+@use "constants";
 
 .recent-post-card {
 	background: rgb(253, 226, 230);
 	border-radius: 30px;
-	margin-bottom: 32px;
+	margin-bottom: 16px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
 
 	.card-container {
 		display: flex;
 		justify-content: space-evenly;
 		align-items: center;
-		padding: 32px;
+		padding: 16px 32px;
 
 		.image-container {
 			border-radius: 10px;
@@ -21,19 +25,19 @@
 			width: 450px;
 
 			.post-title {
-				font-family: variables.$title-font;
+				font-family: constants.$title-font;
 				margin: 0;
 				margin-right: 32px;
-				font-size: 2rem;
+				font-size: 1.5rem;
 			}
 
 			.post-timestamp {
-				font-family: variables.$main-font;
+				font-family: constants.$main-font;
 				font-size: 1rem;
 			}
 
 			.post-body {
-				font-family: variables.$main-font;
+				font-family: constants.$main-font;
 				font-size: 1rem;
                 word-wrap: break-word;
 			}
